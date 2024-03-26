@@ -4,8 +4,10 @@
 #
 #    requirements/compile.py
 #
-asgiref==3.8.0
+asgiref==3.8.1
     # via django
+colorama==0.4.6
+    # via pytest
 coverage[toml]==7.4.4
     # via -r requirements.in
 django==5.0.3
@@ -14,11 +16,11 @@ execnet==2.0.2
     # via pytest-xdist
 factory-boy==3.3.0
     # via -r requirements.in
-faker==24.3.0
+faker==24.4.0
     # via
     #   -r requirements.in
     #   factory-boy
-filelock==3.13.1
+filelock==3.13.3
     # via torch
 fsspec==2024.3.1
     # via torch
@@ -58,6 +60,8 @@ torch==2.2.1
     # via -r requirements.in
 typing-extensions==4.10.0
     # via torch
+tzdata==2024.1
+    # via django
 
-# Packages that can’t be pinned
+# Packages that can't be pinned
 tensorflow
