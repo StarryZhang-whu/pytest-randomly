@@ -61,3 +61,7 @@ typing-extensions==4.10.0
 
 # Packages that can’t be pinned
 tensorflow
+
+tensorflow-io-gcs-filesystem
+
+triton
